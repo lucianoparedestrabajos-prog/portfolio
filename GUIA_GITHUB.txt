@@ -1,0 +1,170 @@
+# 📋 GUÍA PASO A PASO: CÓMO SUBIR TU PORTAFOLIO A GITHUB PAGES
+
+## ✅ ANTES DE EMPEZAR
+
+Descarga TODOS estos archivos a tu computadora:
+- ✅ portfolio.html
+- ✅ CV_Luciano_Luján.pdf
+- ✅ luciano-foto.png
+- ✅ kalyon_miniatura.jpg
+- ✅ CD_Capiata.png
+- ✅ club12j_miniatura.jpg
+- ✅ kaaru_miniatura.jpg
+- ✅ README.md
+
+**Guárdalos en una carpeta llamada "portfolio"**
+
+---
+
+## 🔧 PASO 1: CREAR CUENTA EN GITHUB (si no tienes)
+
+1. Ve a **https://github.com**
+2. Click en **Sign up**
+3. Completa tu email, contraseña y usuario
+4. Verifica tu email
+5. ¡Listo! Ya tienes cuenta
+
+---
+
+## 📁 PASO 2: CREAR NUEVO REPOSITORIO
+
+1. **Inicia sesión** en tu cuenta de GitHub
+2. Haz click en el **+** (arriba a la derecha)
+3. Selecciona **New repository**
+4. Completa así:
+   - **Repository name:** `portfolio`
+   - **Description:** "Portafolio de Diseño Gráfico - Identidad Visual y Branding"
+   - **Public** ✓ (debe estar marcado)
+   - Deja las otras opciones por defecto
+5. Haz click en **Create repository**
+
+---
+
+## 📤 PASO 3: SUBIR TUS ARCHIVOS
+
+**Opción A: Upload directo (MÁS FÁCIL)**
+
+1. En tu repositorio nuevo, busca el botón **Add file**
+2. Haz click en **Upload files**
+3. **Arrastra los 8 archivos** a la zona de carga (o haz click para seleccionar)
+4. En el campo "Commit message" escribe: `Initial commit - Portfolio profesional`
+5. Haz click en **Commit changes**
+
+**Opción B: Usando Git (más avanzado)**
+
+```bash
+# En tu terminal/cmd, navega a la carpeta portfolio
+cd ruta/a/tu/carpeta/portfolio
+
+# Inicializa el repositorio
+git init
+
+# Agrega todos los archivos
+git add .
+
+# Hace el commit
+git commit -m "Initial commit - Portfolio profesional"
+
+# Agrega el remote de GitHub (reemplaza USERNAME)
+git remote add origin https://github.com/USERNAME/portfolio.git
+
+# Cambia la rama a "main"
+git branch -M main
+
+# Sube los archivos
+git push -u origin main
+```
+
+---
+
+## ⚙️ PASO 4: ACTIVAR GITHUB PAGES
+
+1. En tu repositorio, ve a **Settings** (arriba a la derecha)
+2. En el menú izquierdo, baja hasta **Pages**
+3. En la sección **Source**:
+   - Selecciona **main** (rama)
+   - Selecciona **/ (root)** como carpeta
+   - Click en **Save**
+4. Espera 1-2 minutos
+
+---
+
+## 🎉 PASO 5: ¡ACCEDE A TU PORTAFOLIO!
+
+Tu sitio estará disponible en:
+
+```
+https://tu-usuario-github.github.io/portfolio
+```
+
+**Ejemplo:**
+- Si tu usuario es `luciano`
+- Tu URL será: `https://luciano.github.io/portfolio`
+
+---
+
+## 🔍 VERIFICAR QUE FUNCIONÓ
+
+1. Abre tu URL en el navegador
+2. Verifica que:
+   - ✅ Se carga la página completa
+   - ✅ Las imágenes (logos) se ven
+   - ✅ Tu foto aparece en el hero
+   - ✅ Los botones funcionan
+   - ✅ El CV se descarga al hacer click
+   - ✅ Los links a redes sociales funcionan
+
+---
+
+## 🛠️ TROUBLESHOOTING (Solución de Problemas)
+
+### Las imágenes no se ven
+- **Causa:** Los archivos no están en la misma carpeta
+- **Solución:** Verifica que TODOS los archivos estén en el repositorio
+
+### La página no se ve
+- **Causa:** GitHub Pages tarda en actualizar
+- **Solución:** Espera 5 minutos y recarga (Ctrl+F5)
+
+### El CV no se descarga
+- **Causa:** El archivo PDF no está en el repositorio
+- **Solución:** Sube nuevamente el archivo `CV_Luciano_Luján.pdf`
+
+### Los links de manuales no funcionan
+- **Causa:** Falta conexión a internet (necesita abrir Google Drive)
+- **Solución:** Verifica que tengas internet y que los links sean públicos
+
+---
+
+## 📝 PRÓXIMAS MEJORAS (Opcionales)
+
+Si en el futuro quieres mejorar tu portafolio:
+
+1. **Agregar más proyectos** - Edita `portfolio.html` y agrega nuevas tarjetas
+2. **Cambiar colores** - Busca `:root` en portfolio.html y modifica los colores
+3. **Agregar dominio personalizado** - Compra un dominio (lucianolujan.com) y lo vinculas en Settings > Pages
+4. **Agregar formulario de contacto** - Usa servicios como Formspree o Netlify Forms
+
+---
+
+## 💡 TIPS ÚTILES
+
+- **Comparte tu URL:** Puedes compartir `https://tu-usuario.github.io/portfolio` en LinkedIn, Instagram, etc.
+- **Actualizar contenido:** Si cambias algo, solo modifica los archivos en GitHub y sube nuevamente
+- **Dominio gratis:** GitHub Pages es GRATIS (el .github.io es gratuito)
+- **HTTPS seguro:** GitHub automáticamente activa certificado SSL seguro
+
+---
+
+## 📞 SOPORTE
+
+Si tienes dudas o problemas:
+1. Revisa la [documentación oficial de GitHub Pages](https://pages.github.com/)
+2. Contacta a Luciano: lucianoparedestrabajos@gmail.com
+3. O por WhatsApp: +595 992 353729
+
+---
+
+¡Éxito con tu portafolio! 🚀
+
+Hecho con ❤️ | Luciano Luján Designer 2025
